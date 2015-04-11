@@ -73,6 +73,7 @@ img
 
 table.table_precio
 {
+
   border: 1;
 }
 
@@ -163,6 +164,8 @@ body {
 }
 
 
+
+
 /*
   ========================================
   Typography
@@ -203,7 +206,10 @@ em {
   font-style: italic;
 }
 
+th{
 
+  text-align: center;
+}
 /*
   ========================================
   Links
@@ -278,6 +284,20 @@ p a {
   line-height: 44px;
   padding: 40px 0 22px 0;
   text-transform: uppercase;
+}
+.logo1 {
+  border-top: 4px solid #648880;
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .tagline {
   margin: 66px 0 22px 0;
@@ -376,6 +396,7 @@ textarea {
 	<body>
 		<header>
 			<header class="primary-header container group">
+     
 				<h1 class="logo">
 					sistemas web
 				</h1>
@@ -394,11 +415,11 @@ textarea {
 		<section class="row group">
 
 			<div class="container">
-			  <h2>Precios de las clases</h2>            
+			  <h2 align="center">Precios de las clases</h2>            
 			  <table class="table table-striped">
 			    <thead>
 			      <tr class="info">
-			        <th>clase</th>
+			        <th text-align="center">clase</th>
 			        <th></th>
 			        <th>horas</th>
 			        <th>precio</th>

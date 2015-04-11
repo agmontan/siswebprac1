@@ -238,6 +238,32 @@ p a {
   padding: 40px 0 22px 0;
   text-transform: uppercase;
 }
+
+.logo2 {
+  top:300px;
+  left:150px;
+  margin-left: 150px;
+  margin: 10px;
+  padding: 5px;
+
+  
+  position: fixed;
+  background-color: black;
+}
+.logo1 {
+  border-top: 4px solid #648880;
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .tagline {
   margin: 66px 0 22px 0;
   text-align: right;
@@ -326,7 +352,8 @@ textarea {
     <!-- Header -->
 
     <header class="primary-header container group">
-
+      <img class="logo1" src="html51.jpg" alt="Generic placeholder image" width="140" height="140" >
+       <img class="logo2" src="html51.jpg" alt="Generic placeholder image" width="140" height="140" >
       <h1 class="logo">
         <a href="index.html">SISTEMAS WEB</a>
       </h1>
@@ -386,6 +413,21 @@ textarea {
             <label>
               Comentarios
               <textarea name="comments"></textarea>
+            </label>
+            <label>
+              Color de polera
+              <input type="color">
+            </label>
+            <label>
+              Fecha de nacimiento
+              <input type="date">
+            </label>
+            <label>
+            
+                 masculino <input type="radio" name="sex" value="male" checked>
+                  <br>
+                  femenino <input type="radio" name="sex" value="female">
+
             </label>
 
           </fieldset>
